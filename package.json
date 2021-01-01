@@ -1,0 +1,38 @@
+{
+	"name": "runscript",
+	"displayName": "Runscript support for VS Code",
+	"description": "Syntax Highlighter for runscripts",
+	"version": "0.0.1",
+	"publisher": "TheOnlyMrCat",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/TheOnlyMrCat/vscode-runscript"
+	},
+	"engines": {
+		"vscode": "^1.32.0"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"keywords": [
+		"runscript"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "runscript",
+				"extensions": [ ".run" ],
+				"aliases": [ "Runscript", "runscript" ],
+				"filenames": [ "run" ],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "runscript",
+				"scopeName": "source.runscript",
+				"path": "./syntaxes/runscript.tmLanguage.json"
+			}
+		]
+	}
+}
