@@ -2,7 +2,7 @@
 	"name": "vscode-runscript",
 	"displayName": "Runscript Syntax",
 	"description": "Syntax Highlighter for runscripts",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"publisher": "TheOnlyMrCat",
 	"repository": {
 		"type": "git",
