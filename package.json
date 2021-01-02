@@ -1,8 +1,8 @@
 {
-	"name": "runscript",
-	"displayName": "Runscript support for VS Code",
+	"name": "vscode-runscript",
+	"displayName": "Runscript Syntax",
 	"description": "Syntax Highlighter for runscripts",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"publisher": "TheOnlyMrCat",
 	"repository": {
 		"type": "git",

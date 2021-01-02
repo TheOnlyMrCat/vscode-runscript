@@ -4,7 +4,21 @@
   "patterns": [
     {
       "include": "#comment"
-    },
+	},
+	{
+		"matches": "^(\\$opt) (.*)",
+		"captures": {
+			"1": "keyword.other.option.runscript",
+			"2": "constant.other"
+		}
+	},
+	{
+		"matches": "^(\\$include) (.*)",
+		"captures": {
+			"1": "keyword.other.option.runscript",
+			"2": "string.unquoted"
+		}
+	},
     {
       "contentName": "meta.script.runscript",
       "begin": "^(#)(\\w+)(?: ([br][r!]?))?",
